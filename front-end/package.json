@@ -1,0 +1,40 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.15.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.0",
+    "@mui/styled-engine-sc": "^6.4.6",
+    "axios": "^1.8.4",
+    "formik": "^2.4.6",
+    "lucide-react": "^0.479.0",
+    "next": "15.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^10.1.0",
+    "react-toastify": "^11.0.5",
+    "socket.io-client": "^4.8.1",
+    "styled-components": "^6.1.15",
+    "swiper": "^11.2.8",
+    "toastify": "^2.0.1",
+    "vercel": "^41.7.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
