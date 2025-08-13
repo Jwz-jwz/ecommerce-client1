@@ -144,13 +144,6 @@ export default function Header() {
               </button>
             </form>
 
-            {/* <div
-              className="relative p-1 sm:p-2 rounded-full hover:bg-gray-100 transition-colors"
-              aria-label="Shopping Cart"
-            >
-              <ShoppingCartDrawer />
-            </div> */}
-
             {/* Cart Button with Counter */}
             <button
               onClick={handleClick}
